@@ -49,4 +49,12 @@ customers.push = ({name: "Austin Meyers", email: "austinmeyers@yahoo.com",
 console.log(customers)
 // "Task 4 - Customer Database."
 
+let order = {orderID: "VB12356", 
+            customername: "Austin Myers",
+            amount: 70
+}
+order.calculateTAX = function () {return this.amount * 1.1;}
+console.log("Order number:", order.orderID, "Customer:", order.customername
+    ,"Amount:", order.orderID, "After taxes:", order.calculateTAX()
+);
 
