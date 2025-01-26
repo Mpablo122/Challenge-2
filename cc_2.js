@@ -35,6 +35,21 @@ console.log("Updated Employee Information", employee)
 
 // "Task 3 - Employee Records."
 
+let customers = {
+    customer1: {name: "Jose Darnell", email: "josedarnell@yahoo.com", 
+        purchaseamount: 200},
+   customer2:  {name: "Easton Smith", email: "eastonsmith@yahoo.com", 
+        purchaseamount: 400},
+    customer3: {name: "Francis Mark", email: "francismark@yahoo.com",
+        purchaseamount: 500
+     }
+   
+};
+customers.customer4 = {name: "Austin Meyers", email: "austinmeyers@yahoo.com",
+    purchaseamount: 600
+};
+
+console.log(customers)
 
 
 
