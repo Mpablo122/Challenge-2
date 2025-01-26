@@ -4,4 +4,4 @@ console.log(products);
 let productsUpdated = products.pop();
 console.log(productsUpdated)
 console,log(products)
-//task 1 - Store inventory
+//task 1 - Store Inventory
