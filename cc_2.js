@@ -17,3 +17,24 @@ console.log ("Updated array", scores);
 console.log("Average Scores =", averagescores);
 
 //Task 2 - student scores
+
+let employee = {
+    name: "Francis Pablo",
+    Age: 21,
+    department: "Operations Department",
+    isActive: true
+};
+console.log(employee)
+
+employee.department = "Analytics Department"
+
+console.log(employee)
+
+employee.position = "Data Analyst"
+console.log("Updated Employee Information", employee)
+
+// "Task 3 - Employee Records."
+
+
+
+
